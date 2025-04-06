@@ -1,10 +1,8 @@
 
-### Recursos Adicionais que Você Pode Incluir:
+![GitHub last commit](https://img.shields.io/github/last-commit/Felipe-Batista-Silva/CISCO-CCNA)
+![GitHub contributors](https://img.shields.io/github/contributors/Felipe-Batista-Silva/CISCO-CCNA)
+![CCNA](https://img.shields.io/badge/Certificação-CCNA%20v7-red?style=flat&logo=cisco)
 
-1. **Badges** (no topo do README):
-   ```markdown
-   ![GitHub last commit](https://img.shields.io/github/last-commit/Felipe-Batista-Silva/CISCO-CCNA)
-   ![GitHub contributors](https://img.shields.io/github/contributors/Felipe-Batista-Silva/CISCO-CCNA)
 
 
 # CISCO-CCNA 🚀
@@ -29,3 +27,4 @@ Repositório de estudos e recursos para a certificação CCNA (Cisco Certified N
 ```bash
 git clone https://github.com/Felipe-Batista-Silva/CISCO-CCNA.git
 cd CISCO-CCNA
+
