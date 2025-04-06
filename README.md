@@ -1,12 +1,3 @@
-
-### Recursos Adicionais que Você Pode Incluir:
-
-1. **Badges** (no topo do README):
-   ```markdown
-   ![GitHub last commit](https://img.shields.io/github/last-commit/Felipe-Batista-Silva/CISCO-CCNA)
-   ![GitHub contributors](https://img.shields.io/github/contributors/Felipe-Batista-Silva/CISCO-CCNA)
-
-
 # CISCO-CCNA 🚀
 
 Repositório de estudos e recursos para a certificação CCNA (Cisco Certified Network Associate). Inclui anotações, laboratórios, scripts úteis e materiais de referência para ajudar na preparação para o exame.
