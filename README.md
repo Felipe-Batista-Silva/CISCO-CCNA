@@ -20,5 +20,4 @@ Repositório de estudos e recursos para a certificação CCNA (Cisco Certified N
 ```bash
 git clone https://github.com/Felipe-Batista-Silva/CISCO-CCNA.git
 cd CISCO-CCNA
-![GitHub stars](https://img.shields.io/github/stars/Felipe-Batista-Silva/CISCO-CCNA?style=flat-square)
-![CCNA Progress](https://img.shields.io/badge/CCNA-70%25-blue)  *(personalizável)*
+
