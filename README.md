@@ -1,13 +1,9 @@
 
-git add README.md
-git commit -m "# Meu Projeto CCNA
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/Felipe-Batista-Silva/CISCO-CCNA)
 ![GitHub contributors](https://img.shields.io/github/contributors/Felipe-Batista-Silva/CISCO-CCNA)
 ![CCNA](https://img.shields.io/badge/Certificação-CCNA%20v7-red?style=flat&logo=cisco)
 
-..."
-git push
+
 
 # CISCO-CCNA 🚀
 
