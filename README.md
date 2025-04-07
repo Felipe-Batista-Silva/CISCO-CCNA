@@ -112,5 +112,4 @@ ________________________________________________________________________________
 ## 📞 Contato
 [![LinkedIn](https://img.shields.io/badge/Meu_LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/felipe-batista-silva)
 
-
 Visite o Repositório
