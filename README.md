@@ -1,62 +1,110 @@
-# CISCO-CCNA - Guia Completo para Iniciantes
+markdown
+Copy
 
-Repositório com materiais de estudo para a certificação CCNA da Cisco, organizado para quem está começando do zero em redes de computadores.
+# 🚀 CISCO-CCNA - Preparação para Certificação CCNA 200-301
 
-## 🌟 Por onde começar? (Guia Passo a Passo)
+![CCNA Banner](https://via.placeholder.com/1200x400/1a2b3c/FFFFFF?text=CISCO+CCNA+LABS+AND+RESOURCES) *(substitua por imagem real)*
 
-### 📌 Fase 1: Fundamentos Básicos (1-2 semanas)
-1. **Conceitos Iniciais de Redes**
-   - O que é uma rede de computadores?
-   - Diferença entre Internet, LAN, WAN
-   - Dispositivos básicos: roteadores, switches, hubs
-   - [Introdução a Redes](Fundamentos/01-Introducao-Redes.md)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Felipe-Batista-Silva/CISCO-CCNA)](https://github.com/Felipe-Batista-Silva/CISCO-CCNA/commits/main)
+[![GitHub license](https://img.shields.io/github/license/Felipe-Batista-Silva/CISCO-CCNA)](https://github.com/Felipe-Batista-Silva/CISCO-CCNA/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Felipe-Batista-Silva/CISCO-CCNA)](https://github.com/Felipe-Batista-Silva/CISCO-CCNA/stargazers)
 
-2. **Modelo OSI e TCP/IP**
-   - Camadas do modelo OSI (em linguagem simples)
-   - Como os dados trafegam na rede
-   - [Modelo OSI Simplificado](Fundamentos/02-Modelo-OSI-TCPIP.md)
+Repositório oficial com laboratórios práticos, anotações estruturadas e recursos para a certificação **CCNA 200-301**.  
+✨ **Destaques**:  
+- Laboratórios com Packet Tracer e GNS3  
+- Scripts Python para automação de redes  
+- Resumos dos tópicos oficiais do exame  
 
-### 📌 Fase 2: Configurações Básicas (2-3 semanas)
-3. **Primeiros Passos no Cisco IOS**
-   - Como acessar um dispositivo Cisco
-   - Modos de operação (usuário, privilegiado, configuração)
-   - Comandos básicos (`enable`, `configure terminal`, `show`)
-   - [Guia de Comandos Básicos](Comandos/01-Comandos-Basicos.md)
+---
 
-4. **Configurando Interfaces**
-   - Como configurar IP em interfaces
-   - Verificando configurações com `show interface`
-   - [Configuração de Interfaces](Labs/01-Config-Interface.md)
+## 📚 **Conteúdo Organizado**
 
-### 📌 Fase 3: Redes Práticas (3-4 semanas)
-5. **Protocolos de Roteamento**
-   - Diferença entre roteamento estático e dinâmico
-   - Configurando rotas estáticas
-   - Introdução a OSPF
-   - [Roteamento para Iniciantes](Protocolos/01-Roteamento-Estatico.md)
+### 📂 Estrutura do Projeto
 
-6. **VLANs e Switching**
-   - O que são VLANs e por que usá-las
-   - Configuração básica de VLANs
-   - [Guia de VLANs](Switching/01-Introducao-VLANs.md)
+/CISCO-CCNA
+├── /labs → Laboratórios completos (.pkt, .gns3)
+├── /notes → Anotações por tópico (Markdown/PDF)
+├── /scripts → Automação com Python/Ansible
+├── /exams → Simulados e dicas para prova
+└── /cheatsheets → Comandos rápidos Cisco IOS
+Copy
 
-## 🛠️ Ferramentas Recomendadas
-- **Packet Tracer** - Simulador de rede da Cisco (ideal para iniciantes)
-- **GNS3** - Simulador mais avançado (para quem quer ir além)
-- **EVE-NG** - Ambiente profissional de laboratório
 
-## 📚 Recursos Adicionais
-- [Glossário de Termos de Rede](Glossario.md)
-- [Perguntas Frequentes de Iniciantes](FAQ-Iniciantes.md)
-- [Links Úteis](Links-Uteis.md)
+### 📌 Progresso dos Módulos
+| Tópico                | Status         | Arquivos Relacionados       |
+|-----------------------|----------------|-----------------------------|
+| Network Fundamentals  | ✅ 100%        | `/notes/network-basics.md`  |
+| IPv4/IPv6 Subnetting  | ✅ 100%        | `/labs/subnetting.pkt`      |
+| Routing Protocols     | ⏳ 80%         | `/labs/ospf-lab.gns3`       |
+| Network Security      | 🚧 30%         | `/notes/security.md`        |
 
-## 🚀 Como Contribuir
-Encontrou um erro ou quer melhorar o material? 
-1. Faça um fork do repositório
-2. Crie uma branch com sua melhoria (`git checkout -b minha-melhoria`)
-3. Commit suas alterações (`git commit -m 'Adicionando explicação sobre...'`)
-4. Push para a branch (`git push origin minha-melhoria`)
-5. Abra um Pull Request
+---
 
-## 📝 Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+## 🛠️ **Ferramentas Recomendadas**
+| Ferramenta            | Descrição                          | Link                          |
+|-----------------------|------------------------------------|-------------------------------|
+| Cisco Packet Tracer   | Simulação básica de redes          | [Download](https://www.netacad.com/) |
+| GNS3                  | Laboratórios avançados             | [Site Oficial](https://www.gns3.com/) |
+| Wireshark             | Análise de tráfego de rede         | [Download](https://www.wireshark.org/) |
+
+---
+
+## 💻 **Exemplo de Configuração Cisco**
+```cisco
+! Configuração básica de roteador
+enable
+configure terminal
+hostname R1
+!
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+!
+router ospf 1
+ network 192.168.1.0 0.0.0.255 area 0
+
+🔄 Como Contribuir
+
+    Faça um fork do projeto
+
+    Crie sua branch:
+    bash
+    Copy
+
+    git checkout -b feature/nova-funcionalidade
+
+    Commit suas mudanças:
+    bash
+    Copy
+
+    git commit -m "Adiciona laboratório de VLANs"
+
+    Envie para o repositório:
+    bash
+    Copy
+
+    git push origin feature/nova-funcionalidade
+
+    Abra um Pull Request detalhando suas alterações.
+
+📌 Requisitos:
+
+    Mantenha a estrutura de pastas
+
+    Documente novos laboratórios em /notes
+
+    Teste scripts antes de enviar
+
+📜 Licença
+
+Distribuído sob licença MIT. Consulte o arquivo LICENSE para detalhes.
+Cisco®, CCNA® são marcas registradas da Cisco Systems, Inc.
+📞 Contato
+
+    Autor: Felipe Batista Silva
+
+    LinkedIn: Seu Perfil
+
+    Email: seu-email@provedor.com
+
+Visite o Repositório
