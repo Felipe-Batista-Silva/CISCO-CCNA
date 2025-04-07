@@ -110,6 +110,4 @@ Cisco®, CCNA® são marcas registradas da Cisco Systems, Inc.
 ________________________________________________________________________________________
 
 ## 📞 Contato
-[![LinkedIn](https://img.shields.io/badge/Meu_LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/felipe-batista-silva)
-
-Visite o Repositório
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">](https://www.linkedin.com/in/felipe-batista-da-silva-analista-de-suporte/)
