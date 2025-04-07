@@ -24,7 +24,7 @@ Repositório oficial com laboratórios práticos, anotações estruturadas e rec
 ├── /scripts → Automação com Python/Ansible
 ├── /exams → Simulados e dicas para prova
 └── /cheatsheets → Comandos rápidos Cisco IOS
-Copy
+
 
 
 ### 📌 Progresso dos Módulos
