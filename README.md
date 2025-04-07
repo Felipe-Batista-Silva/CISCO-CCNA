@@ -112,7 +112,7 @@ ________________________________________________________________________________
 
     Autor: Felipe Silva
 
-    LinkedIn: [Seu Perfil](https://www.linkedin.com/in/felipe-batista-da-silva-analista-de-suporte/)
+    LinkedIn: [[Seu Perfil](https://www.linkedin.com/in/felipe-batista-da-silva-analista-de-suporte/)]()
 
 
 Visite o Repositório
