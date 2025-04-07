@@ -83,47 +83,36 @@ router ospf 1
  network 192.168.1.0 0.0.0.255 area 0
 
 🔄 Como Contribuir
+1. Faça um fork do projeto
+2. Crie sua branch:
+bash
+git checkout -b feature/nova-funcionalidade
 
-    Faça um fork do projeto
+3. Commit suas mudanças:
+bash
+git commit -m "Adiciona laboratório de VLANs"
 
-    Crie sua branch:
-    bash
-    Copy
+4. Envie para o repositório:
+bash
+git push origin feature/nova-funcionalidade
 
-    git checkout -b feature/nova-funcionalidade
-
-    Commit suas mudanças:
-    bash
-    Copy
-
-    git commit -m "Adiciona laboratório de VLANs"
-
-    Envie para o repositório:
-    bash
-    Copy
-
-    git push origin feature/nova-funcionalidade
-
-    Abra um Pull Request detalhando suas alterações.
+5. Abra um Pull Request detalhando suas alterações.
 
 📌 Requisitos:
-
-    Mantenha a estrutura de pastas
-
-    Documente novos laboratórios em /notes
-
-    Teste scripts antes de enviar
-
+Mantenha a estrutura de pastas
+Documente novos laboratórios em /notes
+Teste scripts antes de enviar
+_______________________________________________________________________________________
 📜 Licença
 
 Distribuído sob licença MIT. Consulte o arquivo LICENSE para detalhes.
 Cisco®, CCNA® são marcas registradas da Cisco Systems, Inc.
+________________________________________________________________________________________
 📞 Contato
 
-    Autor: Felipe Batista Silva
+    Autor: Felipe Silva
 
-    LinkedIn: Seu Perfil
+    LinkedIn: [Seu Perfil](https://www.linkedin.com/in/felipe-batista-da-silva-analista-de-suporte/)
 
-    Email: seu-email@provedor.com
 
 Visite o Repositório
