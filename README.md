@@ -93,3 +93,8 @@ Abra um Pull Request detalhando suas alterações.
 Distribuído sob licença MIT. Consulte o arquivo LICENSE para detalhes.
 Cisco®, CCNA® são marcas registradas da Cisco Systems, Inc.
 
+## 📞 Contato
+
+[![LinkedIn](https://img.shields.io/badge/-CONECTE_SE_NO_LINKEDIN-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-batista-da-silva-analista-de-suporte/)
+[![GitHub](https://img.shields.io/badge/-VISITE_MEU_GITHUB-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Felipe-Batista-Silva)
+[![Gmail](https://img.shields.io/badge/-EMAIL_PARA_CONTATO-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
