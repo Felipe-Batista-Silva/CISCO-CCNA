@@ -19,11 +19,50 @@ Repositório oficial com laboratórios práticos, anotações estruturadas e rec
 ### 📂 Estrutura do Projeto
 
 /CISCO-CCNA
-├── /labs → Laboratórios completos (.pkt, .gns3)
-├── /notes → Anotações por tópico (Markdown/PDF)
-├── /scripts → Automação com Python/Ansible
-├── /exams → Simulados e dicas para prova
-└── /cheatsheets → Comandos rápidos Cisco IOS
+│
+├── /0-Certification-Guide # Recursos oficiais para a prova
+│ ├── Exam-Topics.md # Lista de tópicos do CCNA 200-301
+│ └── Study-Plan.pdf # Cronograma de estudos sugerido
+│
+├── /1-Network-Fundamentals # Conceitos básicos
+│ ├── OSI-TCPIP-Models/
+│ ├── IPv4-IPv6-Subnetting/
+│ └── Network-Topologies/
+│
+├── /2-Infrastructure # Infraestrutura de rede
+│ ├── Routing-Protocols/ # OSPF, EIGRP, BGP
+│ │ ├── OSPF-Labs.pkt
+│ │ └── OSPF-CheatSheet.md
+│ │
+│ ├── Switching/ # VLANs, STP, EtherChannel
+│ └── Wireless/
+│
+├── /3-Network-Security
+│ ├── ACLs/
+│ ├── VPNs/
+│ └── Firewalls/
+│
+├── /4-Automation # Automação e programação
+│ ├── Python-Scripts/ # Netmiko, Paramiko
+│ └── Ansible-Playbooks/
+│
+├── /5-Labs # Laboratórios completos
+│ ├── Packet-Tracer/ # .pkt files
+│ ├── GNS3/ # .gns3 projects
+│ └── Real-Equipment/ # Configs para hardware real
+│
+├── /6-Troubleshooting
+│ ├── Common-Issues.md
+│ └── Methodology.pdf
+│
+├── /Resources
+│ ├── Cheat-Sheets/ # Comandos rápidos Cisco IOS
+│ ├── Diagrams/ # .drawio, .png de topologias
+│ └── Video-Tutorials/ # Links para demonstrações
+│
+└── /Tools # Ferramentas auxiliares
+├── IP-Calculators/
+└── Config-Generators/
 
 
 
