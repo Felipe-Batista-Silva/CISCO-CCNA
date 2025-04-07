@@ -2,8 +2,6 @@
 
 # 🚀 CISCO-CCNA - Preparação para Certificação CCNA 200-301
 
-![CCNA Banner](https://www.google.com/imgres?q=ccna%20banner&imgurl=https%3A%2F%2Fice.aiub.edu%2Fupload%2Fbatch_banner%2F202408191724064275.png&imgrefurl=https%3A%2F%2Fice.aiub.edu%2Fcourse%2Foffers%2F74%2Fccna-batch-320&docid=WRW-jElU2zN0_M&tbnid=T5XZMWxVmgNh8M&w=1590&h=600&hcb=2) 
-
 [![GitHub last commit](https://img.shields.io/github/last-commit/Felipe-Batista-Silva/CISCO-CCNA)](https://github.com/Felipe-Batista-Silva/CISCO-CCNA/commits/main)
 [![GitHub license](https://img.shields.io/github/license/Felipe-Batista-Silva/CISCO-CCNA)](https://github.com/Felipe-Batista-Silva/CISCO-CCNA/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Felipe-Batista-Silva/CISCO-CCNA)](https://github.com/Felipe-Batista-Silva/CISCO-CCNA/stargazers)
