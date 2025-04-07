@@ -66,50 +66,30 @@ Repositório oficial com laboratórios práticos, anotações estruturadas e rec
 | GNS3                  | Laboratórios avançados             | [Site Oficial](https://www.gns3.com/) |
 | Wireshark             | Análise de tráfego de rede         | [Download](https://www.wireshark.org/) |
 
----
-
-## 💻 **Exemplo de Configuração Cisco**
-```cisco
-! Configuração básica de roteador
-enable
-configure terminal
-hostname R1
-!
-interface GigabitEthernet0/0
- ip address 192.168.1.1 255.255.255.0
- no shutdown
-!
-router ospf 1
- network 192.168.1.0 0.0.0.255 area 0
-
 🔄 Como Contribuir
 1. Faça um fork do projeto
-2. Crie sua branch:
-bash
+
+2. Crie sua branch: 
 git checkout -b feature/nova-funcionalidade
 
-3. Commit suas mudanças:
-bash
+3. Commit suas mudanças: 
 git commit -m "Adiciona laboratório de VLANs"
 
 4. Envie para o repositório:
-bash
 git push origin feature/nova-funcionalidade
 
-5. Abra um Pull Request detalhando suas alterações.
+Abra um Pull Request detalhando suas alterações.
 
 📌 Requisitos:
-Mantenha a estrutura de pastas
-Documente novos laboratórios em /notes
-Teste scripts antes de enviar
-_______________________________________________________________________________________
+
+    Mantenha a estrutura de pastas
+
+    Documente novos laboratórios em /notes
+
+    Teste scripts antes de enviar
+
 📜 Licença
 
 Distribuído sob licença MIT. Consulte o arquivo LICENSE para detalhes.
 Cisco®, CCNA® são marcas registradas da Cisco Systems, Inc.
-________________________________________________________________________________________
-## 📞 Contato
 
-[![LinkedIn](https://img.shields.io/badge/-CONECTE_SE_NO_LINKEDIN-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-batista-da-silva-analista-de-suporte/)
-[![GitHub](https://img.shields.io/badge/-VISITE_MEU_GITHUB-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Felipe-Batista-Silva)
-[![Gmail](https://img.shields.io/badge/-EMAIL_PARA_CONTATO-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
